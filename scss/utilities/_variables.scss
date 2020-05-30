@@ -19,33 +19,43 @@ $riptide-blue: #80e8d1;
 $viking-teal: #58e1c1;
 
 // Main Color
-$base-color: $viking-teal;
+$highlight-color: $viking-teal;
 
-// Column Variabeles
-
-$col-1-color: $mountain-purple;
-$col-2-color: $coral-red;
-$col-3-color: $lilac-purple;
-$col-4-color: $anakiwa-blue;
-$col-5-color: $vista-blue-green;
-$col-6-color: $fountain-blue;
-$col-7-color: $sea-pink;
-$col-8-color: $vivid-tangerine;
-$col-9-color: $sunglo-red;
-$col-10-color: $birth-month-green;
-$col-11-color: $malibu-blue;
-$col-12-color: $riptide-blue;
-
-// Button Variables
+$base-font-color: #777;
 
 $link-color: $malibu-blue;
 
-$default-color-style: $malibu-blue;
+$white: #fff;
 
-$error-color-style: $sunglo-red;
+// Column and Flex Variabeles
 
-$info-color-style: $mountain-purple;
+$col-colors: ( //This will prepare the set of color values for each of the grid containers
+  $mountain-purple,
+  $coral-red,
+  $lilac-purple,
+  $anakiwa-blue,
+  $vista-blue-green,
+  $fountain-blue,
+  $sea-pink,
+  $vivid-tangerine,
+  $sunglo-red,
+  $birth-month-green,
+  $malibu-blue,
+  $riptide-blue,
+);
 
-$success-color-style: $birth-month-green;
+$max-basis: 100%; // Set flex-basis: 100%
 
-$warning-color-style: $coral-red;
+// Button Variables
+
+$btn-colors: (
+  'default': $malibu-blue,
+  'error': $sunglo-red,
+  'info': $mountain-purple,
+  'success': $birth-month-green,
+  'warning': $coral-red,
+);
+
+// Media Query Variable
+
+$media-tablet: 768px;
